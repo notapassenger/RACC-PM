@@ -66,21 +66,7 @@ if nargin < 4
         evaOption = 'matrix';
     end
 end
-% add (yq)
-% [a1, a2] = eig(A);
-% mma = min(min(a2));
-% [b1, b2] = eig(B);
-% mmb = min(min(b2));
-% if mma < 0
-% %     A = A + 10*abs(mma)*eye(size(A));
-% %     A = A + max(max(A))*eye(size(A))*1e-5;
-%     A = A + max(max(A))*eye(size(A))*1e-5;
-% end
-% if mmb < 0
-% %     B = B + 20*abs(mmb)*eye(size(B));
-% %     B = B + max(max(B))*eye(size(B))*1e-5;
-%     B = B + max(max(B))*eye(size(B))*1e-5;
-% end
+
 if eigOption
     [X, d1] = eig(A, B, 'chol', 'vector');
     

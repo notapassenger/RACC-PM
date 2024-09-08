@@ -1,42 +1,6 @@
+% from 'Fast Generation of Sound Zones Using Variable Span Trade-Off Filters in the DFT-Domain' 
 function [q] = VAST(HB, HD, Hbdesired, para)
-    %% Initialization
-%     close all;clear;clc
- 
-    % % Add paths for relevant files
-    % addpath(fullfile(pwd,'subcodes'))
-    
-    % Initialization
-%     datafilename = 'srir_fs16kHz_vast_dft__rir_generator.mat';
-%     
-%     srir = load(fullfile(pwd,'rirdata',datafilename));
-    
-    
-    % Processing details
-%     general = srir.general;
-    
-    % Array geometry
-%     array = srir.array;
-    
-    % Room
-%     room = srir.room;
-    
-    % Zone
-%     zone = srir.zone;
-    
-    % Simulated room impulse responses (RIRs) by the rir_generator
-    % Note that rir_generator can be downloaded from the following link:
-    % https://www.audiolabs-erlangen.de/fau/professor/habets/software/rir-generator
-    % https://github.com/ehabets/RIR-Generator
-%     irMeasured = srir.irMeasured;
-    
-    % The impulse response of the virtual source
-    % This is the RIR of the 8th loudspeaker in irMeasured
-%     irVirsrc = srir.irVirsrc;
-    
-    % Some variables
-%     varout = srir.varout;
-%     
-%     clear srir
+%% Initialization
     fs = para.fs;
 %     fSpace = para.fSpace;
     fSpace = 3;
@@ -45,9 +9,7 @@ function [q] = VAST(HB, HD, Hbdesired, para)
     freq = para.freq;
     frePoint = para.frePoint;
     pdB = Hbdesired;
-%     for i = frePoint
-%         pdB(:, i) = exp(-sqrt(-1)*2*pi*freq(i) * 0.01) .* Hbdesired(:, i);
-%     end
+
 
     ATFs.Hml1 = permute(HB(:, :, frePoint), [3 1 2]);
     ATFs.Hml2 = permute(HD(:, :, frePoint), [3 1 2]);
@@ -83,9 +45,7 @@ function [q] = VAST(HB, HD, Hbdesired, para)
     varout.sfactor = 3;
     %%
     % System geometry illustrated in Fig. 4
-    % showSystemGeometry(array,zone,room)
     
-    % Initialize control filters
     ctrfilt = getCtrfilt(general, varout);
     targetdB = -10;
     for jj = general.idx.vast_nf:general.idx.vast_t
@@ -96,20 +56,6 @@ function [q] = VAST(HB, HD, Hbdesired, para)
         ctrfilt{jj}.mu = 1;
         ctrfilt{jj}.V = ctrfilt{jj}.Vmax;
     end
-    
-%     % Initialization process for Sec. V-E
-%     cutlength = general.lenConFilter;
-%     [irMeasured_cut, irVirsrc_cut] = cutRIRs(general, varout, cutlength, ...
-%         irMeasured, irVirsrc);
-%     
-%     iscuttrue = false;
-%     if iscuttrue
-%         mrirs = irMeasured_cut;
-%         drirs = irVirsrc_cut;
-%     else
-%         mrirs = irMeasured;
-%         drirs = irVirsrc;
-%     end
     
     
     % Initialization for VAST-NF
@@ -157,7 +103,6 @@ function [q] = VAST(HB, HD, Hbdesired, para)
    
     
     % VAST-NF
-    % [q] = calculatefVAST(general, array, zone, exp1_ctrfilt, mrirs, drirs, [], 'narrow', exp1_taroption);
     [q] = calculatefVAST(general, array, zone, exp1_ctrfilt, ATFs, [], 'narrow', exp1_taroption);
 end
 
