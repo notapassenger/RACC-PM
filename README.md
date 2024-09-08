@@ -1,6 +1,6 @@
 # RACC-PM
 This is a MATLAB code repository for the manuscript below.
-A Robust Hybrid Alogrihtm Using Worst-CaseOptimization for Pesonal Sound Zones
+A Robust Hybrid Algorithm Using Worst-Case Optimization for Pesonal Sound Zones
 # Description
 'SFCAddGau.m' is the main function that is processed after the disturbance is added with Gaussian noise.
 ## algorithm
