@@ -27,7 +27,11 @@ para.nDFT = nDFT;
 para.freq = f;
 para.L = L;
 para.M = M;
+<<<<<<< Updated upstream
 load("alphaAddGauFinal.mat");
+=======
+load("alphaAddGau.mat");
+>>>>>>> Stashed changes
 % load("alphaAddRev.mat");
 para.alpha = alpha; 
 para.mu = 1; 
@@ -130,47 +134,57 @@ for k = PerformanceChoose
     end
 end
 %% 4.save results
-results.AC_AP = AC_AP;
-results.NSDE_AP = NSDE_AP;
-results.AE_AP = AE_AP;
-results.AC_RAP = AC_RAP;
-results.NSDE_RAP = NSDE_RAP;
-results.AE_RAP = AE_RAP;
-results.AC_VASTNF = AC_VASTNF;
-results.NSDE_VASTNF = NSDE_VASTNF;
-results.AE_VASTNF = AE_VASTNF;
-results.AC_wcACC = AC_wcACC;
-results.NSDE_wcACC = NSDE_wcACC;
-results.AE_wcACC = AE_wcACC;
-results.AC_PRACC = AC_PRACC;
-results.NSDE_PRACC = NSDE_PRACC;
-results.AE_PRACC = AE_PRACC;
-results.AC_ACC = AC_ACC;
-results.NSDE_ACC = NSDE_ACC;
-results.AE_ACC = AE_ACC;
-results.AC_PM = AC_PM;
-results.NSDE_PM = NSDE_PM;
-results.AE_PM = AE_PM;
-results.AC_ACC1 = AC_ACC1;
-results.NSDE_ACC1 = NSDE_ACC1;
-results.AE_ACC1 = AE_ACC1;
-results.AC_PM1 = AC_PM1;
-results.NSDE_PM1 = NSDE_PM1;
-results.AE_PM1 = AE_PM1;
+results.AC_AP = mean(mean(AC_AP, 3), 1);
+results.NSDE_AP = mean(mean(NSDE_AP, 3), 1);
+results.AE_AP = mean(mean(AE_AP, 3), 1);
+results.AC_RAP = mean(mean(AC_RAP, 3), 1);
+results.NSDE_RAP = mean(mean(NSDE_RAP, 3), 1);
+results.AE_RAP = mean(mean(AE_RAP, 3), 1);
+results.AC_VASTNF = mean(mean(AC_VASTNF, 3), 1);
+results.NSDE_VASTNF = mean(mean(NSDE_VASTNF, 3), 1);
+results.AE_VASTNF = mean(mean(AE_VASTNF, 3), 1);
+results.AC_wcACC = mean(mean(AC_wcACC, 3), 1);
+results.NSDE_wcACC = mean(mean(NSDE_wcACC, 3), 1);
+results.AE_wcACC = mean(mean(AE_wcACC, 3), 1);
+results.AC_PRACC = mean(mean(AC_PRACC, 3), 1);
+results.NSDE_PRACC = mean(mean(NSDE_PRACC, 3), 1);
+results.AE_PRACC = mean(mean(AE_PRACC, 3), 1);
+results.AC_ACC = mean(mean(AC_ACC, 3), 1);
+results.NSDE_ACC = mean(mean(NSDE_ACC, 3), 1);
+results.AE_ACC = mean(mean(AE_ACC, 3), 1);
+results.AC_PM = mean(mean(AC_PM, 3), 1);
+results.NSDE_PM = mean(mean(NSDE_PM, 3), 1);
+results.AE_PM = mean(mean(AE_PM, 3), 1);
+results.AC_ACC1 = mean(mean(AC_ACC1, 3), 1);
+results.NSDE_ACC1 = mean(mean(NSDE_ACC1, 3), 1);
+results.AE_ACC1 = mean(mean(AE_ACC1, 3), 1);
+results.AC_PM1 = mean(mean(AC_PM1, 3), 1);
+results.NSDE_PM1 = mean(mean(NSDE_PM1, 3), 1);
+results.AE_PM1 = mean(mean(AE_PM1, 3), 1);
 results.parameters = para;
 results.parameters.fSpaceChoose = fSpaceChoose;
 results.parameters.PerformanceChoose = PerformanceChoose;
 results.parameters.kappa = kappa;
 currentTime = datetime('now', 'TimeZone', 'local', 'Format', 'yyyy_MM_dd');
 results.remark = {'HbdesiredPre = squeeze(ATF.irTrue.HB(:, 8, fSpaceChoose))', currentTime, 'added 50 Gau'};
+<<<<<<< Updated upstream
 save results/resultsGaunew.mat results;
+=======
+save results/resultsGauNew.mat results;
+>>>>>>> Stashed changes
 %% 5.plot results
 % If it is not convenient to run the above code, you can directly load the
 % results of our run, then run the next section.
 
+<<<<<<< Updated upstream
 load('resultsGau.mat');
 % load('resultsRev(0.3-0.6s).mat');
 % load('resultsPosion.mat');
+=======
+load('resultsGauNew.mat');
+% load('resultsPos.mat');
+% load('resultsRev(0.3-0.6s).mat');
+>>>>>>> Stashed changes
 %% 6.
 plotResults(results);
 
