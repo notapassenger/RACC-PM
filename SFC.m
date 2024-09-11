@@ -7,7 +7,7 @@
 %% 1.load RIR data
 clear 
 addpath(genpath(pwd));
-ATF = importdata("ATFRandnAddGau.mat");
+ATF = importdata("ATFAddGau.mat");
 fSpaceChoose = 2:4:201*4;
 HBAll = ATF.irMeasured.HB;
 HDAll = ATF.irMeasured.HD;
@@ -28,6 +28,7 @@ para.freq = f;
 para.L = L;
 para.M = M;
 load("alphaAddGauFinal.mat");
+% load("alphaAddRev.mat");
 para.alpha = alpha; 
 para.mu = 1; 
 para.rho = 0.1; % can't equal to 1 
@@ -162,13 +163,13 @@ results.parameters.PerformanceChoose = PerformanceChoose;
 results.parameters.kappa = kappa;
 currentTime = datetime('now', 'TimeZone', 'local', 'Format', 'yyyy_MM_dd');
 results.remark = {'HbdesiredPre = squeeze(ATF.irTrue.HB(:, 8, fSpaceChoose))', currentTime, 'added 50 Gau'};
-save resultsnew.mat results;
+save results/resultsGaunew.mat results;
 %% 5.plot results
 % If it is not convenient to run the above code, you can directly load the
 % results of our run, then run the next section.
 
 load('resultsGau.mat');
-% load('resultsRev(0.3-0.4s).mat');
+% load('resultsRev(0.3-0.6s).mat');
 % load('resultsPosion.mat');
 %% 6.
 plotResults(results);
