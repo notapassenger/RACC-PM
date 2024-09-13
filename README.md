@@ -16,7 +16,7 @@ To evaluate the performance of the proposed $RACC-PM$ algorithm,  The resulting 
 </div>
 <p align="center">
 <small>
-Fig.1 The evaluation results of Gaussian noise are added.
+Fig.1 Evaluation results of gaussian noise are added.
 </small>
 </p>
 
@@ -25,7 +25,7 @@ Fig.1 The evaluation results of Gaussian noise are added.
 </div>
 <p align="center">
 <small>
-Fig.2 The evaluation results of position perturbation are added.
+Fig.2 Evaluation results of position perturbation are added.
 </small>
 </p>
 
@@ -34,7 +34,7 @@ Fig.2 The evaluation results of position perturbation are added.
 </div>
 <p align="center">
 <small>
-Fig.3 Evaluation Results with 0.3-0.4s Reveberation level.
+Fig.3 Evaluation results with 0.3-0.4s reveberation level.
 </small>
 </p>
 
@@ -43,6 +43,6 @@ Fig.3 Evaluation Results with 0.3-0.4s Reveberation level.
 </div>
 <p align="center">
 <small>
-Fig.4 Evaluation Results with 0.3-0.6s Reveberation level.
+Fig.4 Evaluation results with 0.3-0.6s reveberation level.
 </small>
 </p>
