@@ -12,7 +12,7 @@ This is a MATLAB code repository for the manuscript below. A Robust Hybrid Algor
 To evaluate the performance of the proposed $RACC-PM$ algorithm,  The resulting graphs are shown here.
 
 <div align=center>
-<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsGau.eps" width="400" >
+<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsGau.png" width="400" >
 </div>
 <p align="center">
 <small>
@@ -21,7 +21,7 @@ Fig.1 The evaluation results of Gaussian noise are added.
 </p>
 
 <div align=center>
-<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsPos.eps" width="400" >
+<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsPos.png" width="400" >
 </div>
 <p align="center">
 <small>
@@ -30,7 +30,7 @@ Fig.2 The evaluation results of position perturbation are added.
 </p>
 
  <div align=center>
-<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsRev(0.3-0.4s).eps" width="400" >
+<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsRev(0.3-0.4s).png" width="400" >
 </div>
 <p align="center">
 <small>
@@ -39,7 +39,7 @@ Fig.3 Evaluation Results with 0.3-0.4s Reveberation level.
 </p>
 
 <div align=center>
-<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsRev(0.3-0.6s).eps" width="400" >
+<img src="https://github.com/notapassenger/RACC-PM/tree/main/results/EvaluationResultsRev(0.3-0.6s).png" width="400" >
 </div>
 <p align="center">
 <small>
