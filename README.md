@@ -9,7 +9,7 @@ This is a MATLAB code repository for the manuscript below. A Robust Hybrid Algor
  * **rirGenerate** file provides the way of generate RIR with three ways to add noise: adding Gaussian noise(snr: 15-25dB), position disturbance(0-0.05m), reverberation(0.3s-0.4s).
  # Additional Experiment: Adding position perturbation and reverberation levels in the paper.
 
-To evaluate the performance of the proposed $RACC-PM$ algorithm,  The resulting graphs are shown here.
+To evaluate the performance of the proposed RACC-PM and other algorithms,  The resulting graphs are shown here.
 
 
 <div align=center>
