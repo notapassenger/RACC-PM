@@ -1,5 +1,5 @@
 # RACC-PM
-This is a MATLAB code repository for the manuscript below. A Robust Hybrid Algorithm Using Worst-Case Optimization for Pesonal Sound Zones
+This is a MATLAB code repository for the manuscript below. A Robust Hybrid Algorithm Using Worst-Case Optimization for Pesonal Sound Zones.
 
 #  Introduction
  There are four files in the project:
