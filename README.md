@@ -6,7 +6,7 @@ This is a MATLAB code repository for the manuscript below. A Robust Hybrid Algor
  * **codes** file  provides main function 'SFC.m' and seven algorithms implementation with some dependent functions of sound field control; Make sure the CVX  toolbox has been installed before running the code.
  * **datasets** file provides the room impulse response(RIR) in frequency domain and $\alpha$ used in our experiments; The ATF data is too large to upload and can be generated through rirGenerate.
  * **results** file is a collection of the algorithms performance in the paper.
- * **rirGenerate** file provides the way of generate RIR with three ways to add noise: adding Gaussian noise(snr: 15-25dB), position disturbance(0-0.05m), reverberation(0.3s-0.4s).
+ * **rirGenerate** file provides the way of generate RIR with three ways to add noise: adding Gaussian noise(snr: 15-25dB), position perturbation(0-0.05m), reverberation(0.3s-0.4s).
  # Additional Experiment: Adding position perturbation and reverberation levels in the paper.
 
 To evaluate the performance of the proposed RACC-PM and other algorithms,  The resulting graphs are shown here.
