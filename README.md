@@ -39,7 +39,7 @@ Fig.3 Evaluation results with 0.3-0.6s reveberation level.
 </small>
 </p>
 
-The corresponding parameter Settings are shown in TABLE I.
+The corresponding parameter settings are shown in TABLE I.
 
 <p align="center">
 <small>
