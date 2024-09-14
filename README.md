@@ -57,7 +57,7 @@ TABLE I: Parameters settings on different datasets
   <th align="center"> RACC-PM </th>
 </tr>
 <tr>
-  <td rowspan="1" align="center">Position</td>
+  <td rowspan="1" align="center">Position perturbation</td>
   <td rowspan="3" align="center"> $\kappa=0.7$</th>
   <td rowspan="3" align="center"> $\mu = 1$, $V=L/2=8$</th>
   <td rowspan="3" align="center"> $\gamma_{\rm{B}}\approx\epsilon_B^2$, $\gamma_{\rm{D}}\approx\epsilon_D^2$</th>
