@@ -57,27 +57,19 @@ TABLE I: Parameters settings on different datasets
 </tr>
 <tr>
   <td rowspan="1" align="center">Position</td>
-  <th align ="center"> $\kappa=0.7$.</th>
-  <th align ="center"> $\mu = 1$, $V=L/2=8$.</th>
-  <th align ="center"> $\gamma_{\rm{B}} \approx\epsilon_B^2$, $\gamma_{\rm{D}}\approx\epsilon_D^2$.</th>
-  <th align ="center"> $\alpha_{l},\alpha_{u}[34]$, $\eta=\epsilon_B$,$\gamma_{\rm{D}}=\gamma_{\rm{D}}$ in wc-RACC.</th>
-  <th align ="center"> $\sqrt{e_w}=\Vert\w_{\rm{ACC-PM}}\Vert$, $\rho=0.01$, $\mu=1$, $\alpha ={\rm{AC}}_{\rm{ACC(True)}}$, $\epsilon_{B}=0.01\sqrt{{\rm{tr}}(\H_{\rm{B}}^{\rm{H}}\H_{\rm{B}})}, \epsilon_D=0.01\sqrt{{\rm{tr}}(\H_{\rm{D}}^{\rm{H}}\H_{\rm{D}})}$.</th>
+  <td rowspan="3" align="center"> $\kappa=0.7$.</th>
+  <td rowspan="3" align="center"> $\mu = 1$, $V=L/2=8$.</th>
+  <td rowspan="3" align="center"> $\gamma_{\rm{B}} \approx\epsilon_B^2$, $\gamma_{\rm{D}}\approx\epsilon_D^2$.</th>
+  <td rowspan="3" align="center"> $\alpha_{l},\alpha_{u}[34]$, $\eta=\epsilon_B$,$\gamma_{\rm{D}}=\gamma_{\rm{D}}$ in wc-RACC.</th>
+  <td rowspan="3" align="center"> $\sqrt{e_w}=\Vert\w_{\rm{ACC-PM}}\Vert$, $\rho=0.01$, $\mu=1$, $\alpha ={\rm{AC}}_{\rm{ACC(True)}}$, $\epsilon_{B}=0.01\sqrt{{\rm{tr}}(\H_{\rm{B}}^{\rm{H}}\H_{\rm{B}})}, \epsilon_D=0.01\sqrt{{\rm{tr}}(\H_{\rm{D}}^{\rm{H}}\H_{\rm{D}})}$.</th>
 </tr>
 
+
 <tr>
-  <th align ="center"> $\lambda_2=0.07$</th>
-  <th align ="center"> $\mu_{\beta}=4.5$</th>
-  <th align ="center"> $\lambda_2=0.15$</th>
+  <td rowspan="1" align="center">Reverberation(0.3-0.4s)</td>
+  
 </tr>
 <tr>
-  <td rowspan="2" align="center">II</td>
-  <th align ="center"> $\lambda_1=0.04$</th>
-  <th align ="center"> $\mu_{\alpha}=3.5$</th>
-  <th align ="center"> $\lambda_1=0.002$</th>
-</tr>
-<tr>
-  <th align ="center"> $\lambda_2=0.1$</th>
-  <th align ="center"> $\mu_{\beta}=4$</th>
-  <th align ="center"> $\lambda_2=0.15$</th>
+  <td rowspan="1" align="center">Reverberation(0.3-0.6s)</td>
 </tr>
 </table>
