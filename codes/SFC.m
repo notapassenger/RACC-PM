@@ -1,12 +1,14 @@
 %% This is a MATLAB code repository for the manuscript below. 
-% (1) 'A Robust Hybrid Algorithm Using Worst-CaseOptimization for Pesonal Sound
-% Zones'.
-% (2) sound field control added gaussian noise.
+% (1) 'A Robust Hybrid Algorithm for Personal Sound Zones: A Worst-Case Optimization Approach'.
+% (2) sound field control added gaussian noise, position perturbation and reverberation.
 % (3) If it is not convenient to run the calculation procedure code, ...
 % you can start directly from step 5.
 %% 1.load RIR data
 clear 
 addpath(genpath(pwd));
+parentFolder = fileparts(pwd);
+datasetsFolder = fullfile(parentFolder, 'datasets');
+addpath(genpath(datasetsFolder));
 ATF = importdata("ATFAddGau.mat");
 fSpaceChoose = 2:4:201*4;
 HBAll = ATF.irMeasured.HB;
@@ -16,8 +18,8 @@ L = size(HDAll, 2);
 HbdesiredPre = ATF.irDesired.HB(:, fSpaceChoose);
 clear ATF;
 %% 2.Experiment and parameter setting
-frePoint = 1:length(fSpaceChoose);
-PerformanceChoose = 1:size(HBAll, 4);
+frePoint = 1:2;%length(fSpaceChoose);
+PerformanceChoose = 1:2;%size(HBAll, 4);
 nDFT = 3200;
 fs = 16000;
 f = fs*(fSpaceChoose)/nDFT; 
@@ -27,11 +29,7 @@ para.nDFT = nDFT;
 para.freq = f;
 para.L = L;
 para.M = M;
-<<<<<<< Updated upstream
-load("alphaAddGauFinal.mat");
-=======
 load("alphaAddGau.mat");
->>>>>>> Stashed changes
 % load("alphaAddRev.mat");
 para.alpha = alpha; 
 para.mu = 1; 
@@ -167,24 +165,24 @@ results.parameters.PerformanceChoose = PerformanceChoose;
 results.parameters.kappa = kappa;
 currentTime = datetime('now', 'TimeZone', 'local', 'Format', 'yyyy_MM_dd');
 results.remark = {'HbdesiredPre = squeeze(ATF.irTrue.HB(:, 8, fSpaceChoose))', currentTime, 'added 50 Gau'};
-<<<<<<< Updated upstream
-save results/resultsGaunew.mat results;
-=======
-save results/resultsGauNew.mat results;
->>>>>>> Stashed changes
+
+% save to results folder
+parentFolder = fileparts(pwd);
+resultsFolder = fullfile(parentFolder, 'results');
+if ~isfolder(resultsFolder)
+    mkdir(resultsFolder);
+end
+savePath = fullfile(resultsFolder, 'resultsGaunew.mat');
+save(savePath, 'results');
 %% 5.plot results
 % If it is not convenient to run the above code, you can directly load the
 % results of our run, then run the next section.
-
-<<<<<<< Updated upstream
+parentFolder = fileparts(pwd);
+resultsFolder = fullfile(parentFolder, 'results');
+addpath(genpath(resultsFolder));
 load('resultsGau.mat');
 % load('resultsRev(0.3-0.6s).mat');
 % load('resultsPosion.mat');
-=======
-load('resultsGauNew.mat');
-% load('resultsPos.mat');
-% load('resultsRev(0.3-0.6s).mat');
->>>>>>> Stashed changes
 %% 6.
 plotResults(results);
 
