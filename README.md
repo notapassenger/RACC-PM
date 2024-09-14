@@ -38,3 +38,43 @@ Fig.2 Evaluation results with 0.3-0.4s reveberation level.
 Fig.3 Evaluation results with 0.3-0.6s reveberation level.
 </small>
 </p>
+
+The corresponding parameter Settings are shown in Table 1.
+
+<p align="center">
+<small>
+TABLE I: Parameters settings on different datasets
+</small>
+</p>
+<table border="1" width="500px" cellspacing="10" align="center">
+<tr>
+  <th align="center"> Dataset </th>
+  <th align="center"> ACC-PM </th>
+  <th align="center"> VAST-NF </th>
+  <th align="center"> wc-RACC </th>	
+  <th align="center"> POTDC-RACC </th>
+  <th align="center"> RACC-PM </th>
+</tr>
+<tr>
+  <td rowspan="2" align="center">I</td>
+  <th align ="center"> $\lambda_1=0.04$</th>
+  <th align ="center"> $\mu_{\alpha}=4$</th>
+  <th align ="center"> $\lambda_1=0.009$</th>
+</tr>
+<tr>
+  <th align ="center"> $\lambda_2=0.07$</th>
+  <th align ="center"> $\mu_{\beta}=4.5$</th>
+  <th align ="center"> $\lambda_2=0.15$</th>
+</tr>
+<tr>
+  <td rowspan="2" align="center">II</td>
+  <th align ="center"> $\lambda_1=0.04$</th>
+  <th align ="center"> $\mu_{\alpha}=3.5$</th>
+  <th align ="center"> $\lambda_1=0.002$</th>
+</tr>
+<tr>
+  <th align ="center"> $\lambda_2=0.1$</th>
+  <th align ="center"> $\mu_{\beta}=4$</th>
+  <th align ="center"> $\lambda_2=0.15$</th>
+</tr>
+</table>
