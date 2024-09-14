@@ -39,7 +39,7 @@ Fig.3 Evaluation results with 0.3-0.6s reveberation level.
 </small>
 </p>
 
-The corresponding parameter Settings are shown in Table 1.
+The corresponding parameter Settings are shown in TABLE I.
 
 <p align="center">
 <small>
@@ -53,14 +53,17 @@ TABLE I: Parameters settings on different datasets
   <th align="center"> VAST-NF </th>
   <th align="center"> wc-RACC </th>	
   <th align="center"> POTDC-RACC </th>
-  <th align="center"> RACC-PM </th>
+  <th align="center"> \textbf{RACC-PM} </th>
 </tr>
 <tr>
-  <td rowspan="2" align="center">I</td>
-  <th align ="center"> $\lambda_1=0.04$</th>
-  <th align ="center"> $\mu_{\alpha}=4$</th>
-  <th align ="center"> $\lambda_1=0.009$</th>
+  <td rowspan="1" align="center">Position</td>
+  <th align ="center"> $\kappa=0.7$.</th>
+  <th align ="center"> $\mu = 1$, $V=L/2=8$.</th>
+  <th align ="center"> $\gamma_{\rm{B}} \approx\epsilon_B^2$, $\gamma_{\rm{D}}\approx\epsilon_D^2$.</th>
+  <th align ="center"> $\alpha_{l},\alpha_{u}[34]$, $\eta=\epsilon_B$,$\gamma_{\rm{D}}=\gamma_{\rm{D}}$ in wc-RACC.</th>
+  <th align ="center"> $\sqrt{e_w}=\Vert\w_{\rm{ACC-PM}}\Vert$, $\rho=0.01$, $\mu=1$, $\alpha ={\rm{AC}}_{\rm{ACC(True)}}$, $\epsilon_{B}=0.01\sqrt{{\rm{tr}}(\H_{\rm{B}}^{\rm{H}}\H_{\rm{B}})}, \epsilon_D=0.01\sqrt{{\rm{tr}}(\H_{\rm{D}}^{\rm{H}}\H_{\rm{D}})}$.</th>
 </tr>
+
 <tr>
   <th align ="center"> $\lambda_2=0.07$</th>
   <th align ="center"> $\mu_{\beta}=4.5$</th>
