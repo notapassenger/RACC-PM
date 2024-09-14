@@ -53,7 +53,7 @@ TABLE I: Parameters settings on different datasets
   <th align="center"> VAST-NF </th>
   <th align="center"> wc-RACC </th>	
   <th align="center"> POTDC-RACC </th>
-  <th align="center"> **RACC-PM** </th>
+  <th align="center"> RACC-PM </th>
 </tr>
 <tr>
   <td rowspan="1" align="center">Position</td>
