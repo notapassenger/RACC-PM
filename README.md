@@ -13,10 +13,10 @@ This is a MATLAB code repository for the manuscript below.
 To evaluate the performance of the proposed RACC-PM and other algorithms,  The resulting graphs are shown here.
 
 
-<div style="position: absolute; left: 200px; top: 100px;">
-<img src="/results/EvaluationResultsPos.png" width="100" >
+<div >
+<img src="/results/EvaluationResultsPos.png" width="700" >
 </div>
-<p align="center">
+<p >
 <small>
 Fig.1 Evaluation results of position perturbation are added.
 </small>
