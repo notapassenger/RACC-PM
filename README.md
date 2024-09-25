@@ -15,33 +15,32 @@ To evaluate the performance of the proposed RACC-PM and other algorithms,  The r
 <div>
 <img src="/results/EvaluationResultsPos.png" width="700" >
 </div>
-<p style="line-height: 1.8;">
+<p style="line-height: 2;">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   Fig.1 Evaluation results of position perturbation are added.
 </p>
 
-
-
  <div>
 <img src="results/EvaluationResultsRev(0.3-0.4s).png" width="700" >
 </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Fig.2 Evaluation results with 0.3-0.4s reveberation level.
-
-
+<p style="line-height: 2;">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Fig.2 Evaluation results with 0.3-0.4s reveberation level.
+</p>
 
 <div>
 <img src="/results/EvaluationResultsRev(0.3-0.6s).png" width="700" >
 </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Fig.3 Evaluation results with 0.3-0.6s reveberation level.
-
+<p style="line-height: 2;">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Fig.3 Evaluation results with 0.3-0.6s reveberation level.
+</p>
 
 The corresponding parameter settings are shown in TABLE I.
 
