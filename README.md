@@ -15,17 +15,7 @@ To evaluate the performance of the proposed RACC-PM and other algorithms,  The r
 <div>
 <img src="/results/EvaluationResultsPos.png" width="700" >
 </div>
-<p >
-<small>
-Fig.1 Evaluation results of position perturbation are added.
-</small>
-</p>
-<pre>
-    这是一个有四个空格的示例
-</pre>
-'    这是一个有四个空格的示例'
-这是一个带有&nbsp;&nbsp;&nbsp;&nbsp;四个空格的示例。
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fig.1 Evaluation results of position perturbation are added.
 
  <div align="center">
 <img src="results/EvaluationResultsRev(0.3-0.4s).png" width="700" >
