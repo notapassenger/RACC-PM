@@ -17,7 +17,8 @@ To evaluate the performance of the proposed RACC-PM and other algorithms,  The r
 </div>
 <p >
 <small>
-&nbsp;&nbsp;&nbsp;&nbsp;Fig.1 Evaluation results of position perturbation are added.
+&nbsp;&nbsp;&nbsp;&nbsp;
+ Fig.1 Evaluation results of position perturbation are added.
 </small>
 </p>
 
