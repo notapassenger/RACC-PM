@@ -12,8 +12,18 @@ This is a MATLAB code repository for the manuscript below.
 
 To evaluate the performance of the proposed RACC-PM and other algorithms,  The resulting graphs are shown here.
 
+<div>
+<img src="/results/EvaluationResultsPos.png" width="700" >
+ <p align="center">
+ <small>
+ Fig.1 Evaluation results of position perturbation are added.
+ </small>
+ </p>
+</div>
+
+
 <div align="center">
-<img src="/results/EvaluationResultsPos.png" width="600" >
+<img src="/results/EvaluationResultsPos.png" width="700" >
 </div>
 <p align="center">
 <small>
@@ -22,7 +32,7 @@ Fig.1 Evaluation results of position perturbation are added.
 </p>
 
  <div align="center">
-<img src="results/EvaluationResultsRev(0.3-0.4s).png" width="600" >
+<img src="results/EvaluationResultsRev(0.3-0.4s).png" width="700" >
 </div>
 <p align="center">
 <small>
@@ -31,7 +41,7 @@ Fig.2 Evaluation results with 0.3-0.4s reveberation level.
 </p>
 
 <div align="center">
-<img src="/results/EvaluationResultsRev(0.3-0.6s).png" width="600" >
+<img src="/results/EvaluationResultsRev(0.3-0.6s).png" width="700" >
 </div>
 <p align="center">
 <small>
