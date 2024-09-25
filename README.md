@@ -14,7 +14,7 @@ To evaluate the performance of the proposed RACC-PM and other algorithms,  The r
 
 
 <div style="position: absolute; left: 600px; top: 100px;">
-<img src=/results/EvaluationResultsPos.png width="700" >
+<img src=/results/EvaluationResultsPos.png width="700px" >
 </div>
 <p align="center">
 <small>
