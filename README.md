@@ -13,12 +13,16 @@ This is a MATLAB code repository for the manuscript below.
 To evaluate the performance of the proposed RACC-PM and other algorithms,  The resulting graphs are shown here.
 
 
-<div style="width: 100%; text-align: center; position: relative;">
-  <div style="display: inline-block; margin-left: -30px;">
-    <img src="/results/EvaluationResultsPos.png" alt="图片描述" style="display: block; margin: 0 auto; width: 300px;">
-    <p style="text-align: center;">这是图片的文字说明</p>
-  </div>
-</div>
+<table style="margin: 0 auto;">
+  <tr>
+    <td style="text-align: center; padding-left: 30px;">
+      <img src="/results/EvaluationResultsPos.png" alt="图片描述" style="width: 300px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">这是图片的文字说明</td>
+  </tr>
+</table>
 
 
 <div >
